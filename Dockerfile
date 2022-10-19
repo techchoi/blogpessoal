@@ -1,5 +1,5 @@
 FROM openjdk:17.0.1-jdk-oracle as build
-WORKDIR /workspace/appz
+WORKDIR /workspace/app
 COPY mvnw .
 COPY .mvn .mvn
 COPY pom.xml .
